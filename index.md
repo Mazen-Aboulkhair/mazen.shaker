@@ -7,24 +7,30 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ### "const" Keyword 
 
 -When a function is declared as const, it can be called on any type of object, const object as well as non-const objects.
+
 -Whenever an object is declared as const, it needs to be initialized at the time of declaration. however, the object initialization while declaring is possible only with the help of constructors.
 
+Following is a simple example of a const function:
+
 ```markdown
-Syntax highlighted code block
-
-# Hi
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+#include <iostream>
+using namespace std;
+ 
+class Test {
+    int value;
+ 
+public:
+    Test(int v = 0) { value = v; }
+ 
+    int getValue() const { return value; }
+};
+ 
+int main()
+{
+    Test t(20);
+    cout << t.getValue();
+    return 0;
+}
 ```
 ```markdown
 Syntax highlighted code block
