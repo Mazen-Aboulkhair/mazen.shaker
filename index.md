@@ -64,7 +64,50 @@ passing 'const Test' as 'this' argument of 'int
 Test::getValue()' discards qualifiers
 ```
 
+## Const Keyword With Pointer Variables:
 
+Pointers can be declared with a const keyword. So, there are three possible ways to use a const keyword with a pointer, which are as follows:
+
+When the pointer variable point to a const value:
+
+Syntax: 
+```markdown
+const data_type* var_name;
+```
+
+Below is the C++ program to implement the above concept: 
+
+```markdown
+#include <iostream>
+using namespace std;
+ 
+// Driver Code
+int main()
+{
+    int x{ 10 };
+    char y{ 'M' };
+ 
+    const int* i = &x;
+    const char* j = &y;
+ 
+    // Value of x and y can be altered,
+    // they are not constant variables
+    x = 9;
+    y = 'A';
+ 
+    // Change of constant values because,
+    // i and j are pointing to const-int
+    // & const-char type value
+    // *i = 6;
+    // *j = 7;
+ 
+    cout << *i << " " << *j;
+}
+```
+Output: 
+```markdown
+9 A
+```
 
 ```markdown
 Syntax highlighted code block
