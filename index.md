@@ -113,6 +113,7 @@ Output:
 The "&" character can be used for 2 purposes which are mainly:
 
 1-Take the address of a value
+
 2-Declare a reference to a type
 
 An example for 2: The parameter string& str is a reference to a string instance. This is not just limited to function signatures, it can occur in method bodies as well.
@@ -123,13 +124,18 @@ void Example() {
   string& s2 = s1;  // s2 is now a reference to s1
 }
 ```
+The & operator was used to create a reference variable. But it can also be used to get the memory address of a variable; which is the location of where the variable is stored on the computer.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+When a variable is created in C++, a memory address is assigned to the variable. And when we assign a value to the variable, it is stored in this memory address.
 
-### Jekyll Themes
+To access it, use the & operator, and the result will represent where the variable is stored:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Mazen-Aboulkhair/mazen.shaker/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```markdown
+string food = "Pizza";
 
-### Support or Contact
+cout << &food; // Outputs 0x6dfed4
+```
+##Note: 
+The memory address is in hexadecimal form (0x..). Note that you may not get the same result in your program.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+                         ## THANK YOU
