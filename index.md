@@ -1,12 +1,13 @@
-## Usage of const keyword and & operator in c++
+## Usage of const keyword and "&" operator in c++
 
 You can use the [editor on GitHub](https://github.com/Mazen-Aboulkhair/mazen.shaker/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Task 3
+### const Keyword 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+-When a function is declared as const, it can be called on any type of object, const object as well as non-const objects.
+-Whenever an object is declared as const, it needs to be initialized at the time of declaration. however, the object initialization while declaring is possible only with the help of constructors.
 
 ```markdown
 Syntax highlighted code block
