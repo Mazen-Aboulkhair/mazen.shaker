@@ -4,11 +4,28 @@ You can use the [editor on GitHub](https://github.com/Mazen-Aboulkhair/mazen.sha
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### const Keyword 
+### "const" Keyword 
 
 -When a function is declared as const, it can be called on any type of object, const object as well as non-const objects.
 -Whenever an object is declared as const, it needs to be initialized at the time of declaration. however, the object initialization while declaring is possible only with the help of constructors.
 
+```markdown
+Syntax highlighted code block
+
+# Hi
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
 ```markdown
 Syntax highlighted code block
 
