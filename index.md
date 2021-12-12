@@ -1,9 +1,5 @@
 ## Usage of const keyword and "&" operator in c++
 
-You can use the [editor on GitHub](https://github.com/Mazen-Aboulkhair/mazen.shaker/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
 ### "const" Keyword 
 
 -When a function is declared as const, it can be called on any type of object, const object as well as non-const objects.
