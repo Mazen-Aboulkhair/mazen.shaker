@@ -57,6 +57,15 @@ int main() {
     return 0;
 ```
 
+Here the output will be:
+
+```markdown
+passing 'const Test' as 'this' argument of 'int 
+Test::getValue()' discards qualifiers
+```
+
+
+
 ```markdown
 Syntax highlighted code block
 
