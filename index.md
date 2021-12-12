@@ -108,6 +108,12 @@ Output:
 ```markdown
 9 A
 ```
+### The ```markdown & ``` character in C++:
+
+The "&" character can be used for 2 purposes which are mainly:
+
+1-Take the address of a value
+2-Declare a reference to a type
 
 ```markdown
 Syntax highlighted code block
