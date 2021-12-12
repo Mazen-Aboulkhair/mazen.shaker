@@ -108,29 +108,20 @@ Output:
 ```markdown
 9 A
 ```
-### The ```markdown & ``` character in C++:
+### The "&" character in C++:
 
 The "&" character can be used for 2 purposes which are mainly:
 
 1-Take the address of a value
 2-Declare a reference to a type
 
+An example for 2: The parameter string& str is a reference to a string instance. This is not just limited to function signatures, it can occur in method bodies as well.
+
 ```markdown
-Syntax highlighted code block
-
-# Hi
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+void Example() {
+  string s1 = "example";
+  string& s2 = s1;  // s2 is now a reference to s1
+}
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
