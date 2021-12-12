@@ -134,4 +134,4 @@ cout << &food; // Outputs 0x6dfed4
 ### Note:
 The memory address is in hexadecimal form (0x..). Note that you may not get the same result in your program.
 
-                         ### THANK YOU
+                            THANK YOU
